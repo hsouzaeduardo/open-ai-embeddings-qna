@@ -1,12 +1,12 @@
 # Azure OpenAI Embeddings QnA
 
-A simple web application for a OpenAI-enabled document search. This repo uses Azure OpenAI Service for creating embeddings vectors from documents. For answering the question of a user, it retrieves the most relevant document and then uses GPT-3 to extract the matching answer for the question.
+Um aplicativo da Web simples para uma pesquisa de documentos habilitada para OpenAI. Este repositório usa o serviço Azure OpenAI para criar vetores de incorporação de documentos. Para responder à pergunta de um usuário, ele recupera o documento mais relevante e usa o GPT-3 ou GPT-4 para extrair a resposta correspondente à pergunta.
 
 ![Architecture](docs/architecture.png)
 
 ## Learning More about Enterprise QnA 
 
-Enterprise QnA is built on a pattern the AI community calls "Retrieval-Augmented Generation" (RAG). In addition to this repository having a reference architecture on how to implement this pattern on Azure, here are resources to familiarize yourself with the concepts in RAG, and samples to learn each underlying product's APIs:
+O Enterprise QnA é construído sobre um padrão que a comunidade de IA chama de "Retrieval-Augmented Generation" (RAG). Além deste repositório ter uma arquitetura de referência sobre como implementar esse padrão no Azure, aqui estão os recursos para se familiarizar com os conceitos do RAG e exemplos para aprender as APIs de cada produto:
 
 | Resource | Links	| Purpose| Highlights | 
 | ---- | ----	| ---- | ----------------- | 
@@ -301,9 +301,13 @@ Optional parameters for additional features (e.g. document text extraction with 
 |VNET_DEPLOYMENT| false | Boolean variable to set "true" if you want to deploy the solution in a VNET. Please check your [Azure Form Recognizer](https://learn.microsoft.com/en-us/azure/applied-ai-services/form-recognizer/managed-identities-secured-access?view=form-recog-2.1.0) and [Azure Translator](https://learn.microsoft.com/en-us/azure/cognitive-services/translator/reference/v3-0-reference#virtual-network-support) endpoints as well.|
 
 # DISCLAIMER
-This presentation, demonstration, and demonstration model are for informational purposes only and (1) are not subject to SOC 1 and SOC 2 compliance audits, and (2) are not designed, intended or made available as a medical device(s) or as a substitute for professional medical advice, diagnosis, treatment or judgment. Microsoft makes no warranties, express or implied, in this presentation, demonstration, and demonstration model. Nothing in this presentation, demonstration, or demonstration model modifies any of the terms and conditions of Microsoft’s written and signed agreements. This is not an offer and applicable terms and the information provided are subject to revision and may be changed at any time by Microsoft.
+Esta apresentação, demonstração e modelo de demonstração são apenas para fins informativos e (1) não estão sujeitos a auditorias de conformidade SOC 1 e SOC 2 e (2) não foram projetados, destinados ou disponibilizados como dispositivo(s) médico(s) ou como um substituto para aconselhamento médico profissional, diagnóstico, tratamento ou julgamento. A Microsoft não oferece garantias, expressas ou implícitas, nesta apresentação, demonstração e modelo de demonstração. Nada nesta apresentação, demonstração ou modelo de demonstração modifica nenhum dos termos e condições dos contratos escritos e assinados da Microsoft. Esta não é uma oferta e os termos aplicáveis e as informações fornecidas estão sujeitas a revisão e podem ser alteradas a qualquer momento pela Microsoft.
 
-This presentation, demonstration, and demonstration model do not give you or your organization any license to any patents, trademarks, copyrights, or other intellectual property covering the subject matter in this presentation, demonstration, and demonstration model.
+Esta apresentação, demonstração e modelo de demonstração não concedem a você ou à sua organização qualquer licença para quaisquer patentes, marcas registradas, direitos autorais ou outra propriedade intelectual que abranja o assunto nesta apresentação, demonstração e modelo de demonstração.
+
+As informações contidas nesta apresentação, demonstração e modelo de demonstração representam a visão atual da Microsoft sobre os assuntos discutidos na data da apresentação e/ou demonstração, durante o período de seu acesso ao modelo de demonstração. Como a Microsoft deve responder às mudanças nas condições do mercado, isso não deve ser interpretado como um compromisso por parte da Microsoft, e a Microsoft não pode garantir a precisão de nenhuma informação apresentada após a data de apresentação e/ou demonstração e durante o seu acesso para o modelo de demonstração.
+
+Nenhuma tecnologia da Microsoft, nem qualquer uma de suas tecnologias componentes, incluindo o modelo de demonstração, destina-se ou é disponibilizada como um substituto para o conselho profissional, opinião ou julgamento de (1) um profissional de serviços financeiros certificado ou (2) um médico certificado profissional. Os parceiros ou clientes são responsáveis por garantir a conformidade regulamentar de qualquer solução que criem usando as tecnologias da Microsoft.
 
 The information contained in this presentation, demonstration and demonstration model represents the current view of Microsoft on the issues discussed as of the date of presentation and/or demonstration, for the duration of your access to the demonstration model. Because Microsoft must respond to changing market conditions, it should not be interpreted to be a commitment on the part of Microsoft, and Microsoft cannot guarantee the accuracy of any information presented after the date of presentation and/or demonstration and for the duration of your access to the demonstration model.
 
