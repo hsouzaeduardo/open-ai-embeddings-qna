@@ -19,9 +19,9 @@ def delete_all():
 try:
     # Set page layout to wide screen and menu item
     menu_items = {
-	'Get help': None,
-	'Report a bug': None,
-	'About': '''
+	'Obter ajuda': None,
+	'Reportar um bug': None,
+	'Sobre': '''
 	 ## Embeddings App
 	 Embedding testing application.
 	'''

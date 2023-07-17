@@ -6,12 +6,12 @@ from utilities.helper import LLMHelper
 try:
     # Set page layout to wide screen and menu item
     menu_items = {
-	'Get help': None,
-	'Report a bug': None,
-	'About': '''
+	'Obter ajuda': None,
+	'Reportar um erro': None,
+	'Sobre': '''
 	 ## Embeddings App
 
-	Document Reader Sample Demo.
+	Vivo Document.
 	'''
     }
     st.set_page_config(layout="wide", menu_items=menu_items)
